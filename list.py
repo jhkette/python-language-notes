@@ -21,3 +21,10 @@ nested_lists = [[1,3], [1,2], [2,3]]
 # products of nested lists
 product = [item * item1 for (item, item1) in nested_lists]
 print(product)
+
+people = ['charlie', 'cody', 'christina' 'ahsjdk']
+
+
+cname = all(name[0] == 'C' for name in people) #returns boolean value
+
+print(cname)
